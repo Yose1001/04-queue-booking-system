@@ -103,6 +103,7 @@
 | `src/routes/` | กำหนดเส้นทาง API เช่น `POST /api/auth/login` |
 | `src/controllers/` | Logic จริงของแต่ละ API เช่น เช็คคิวซ้อนก่อนจอง |
 | `src/middleware/` | ตรวจสอบก่อนถึง controller: เช็ค JWT token, เช็คสิทธิ์ admin |
+| `src/seed.js` | สร้างบัญชี admin เริ่มต้นให้อัตโนมัติตอนรันครั้งแรก |
 | `.env.example` | ตัวอย่างตัวแปรลับ (คัดลอกเป็น `.env` แล้วใส่ค่าจริง) |
 | `Dockerfile` | สูตร build image ของ backend |
 
